@@ -1,4 +1,4 @@
-# Fasion Minst Classification using Support Vector Machines
+# Fasion MNIST Classification using Support Vector Machines
 
 ## How to use
 1. Install tensorflow (used only to get the dataset), I used version 2.0
@@ -11,7 +11,7 @@ Results are calculated based on the traning set that is also first transformed u
 
 ## Results
 
-This classifier turns out to be quite good compared even compared to the NN's. Some classes like shoes and bags most likely have difeerentiating HOG descriptors and the SVM could separate those from the other classes quite well.
+This classifier turns out to be quite good compared even compared to the NN's. Some classes like shoes and bags most likely have differentiating HOG descriptors and the SVM could separate those from the other classes quite well.
 
 Here is the comparison:
 https://github.com/zalandoresearch/fashion-mnist
