@@ -11,14 +11,18 @@ Results are calculated based on the traning set that is also first transformed u
 
 ## Results
 
-This classifier turns out to be quite good compared even compared to the NN's. Some classes like shoes and bags most likely have differentiating HOG descriptors and the SVM could separate those from the other classes quite well.
+This classifier turns out to be quite good compared even compared to the simple NN's setups which can get accuracy around 90%. Some classes like shoes and bags most likely have differentiating HOG descriptors and the SVM could separate those from the other classes quite well.
 
-Here is the comparison:
+Links to the simple NNs implementation:
+* A tensorflow mini-course: https://www.youtube.com/watch?v=bemDFpNooA8&t=155s
+* CodeLab from google: https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab2-Computer-Vision.ipynb
+
+Here is the comparison for the various algorithms for the same dataset:
 https://github.com/zalandoresearch/fashion-mnist
 
 The parameters can be improved to get even better results.
 
-Total error on the test set is 10.09%
+Total error on the test set is 10.09%. 
 
 * Category: T-shirt/top, Correct: 820, Failed: 180, Total: 1000, error: 18.0
 * Category: Trouser, Correct: 974, Failed: 26, Total: 1000, error: 2.6
